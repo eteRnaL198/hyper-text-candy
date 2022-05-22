@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dom_class {
+            display: none;
+        }
+        .dom_class.is-open {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- DOM操作 -->
+    <button class="dom_one">one</button>
+    <button class="dom_two">two</button>
+    <button class="dom_three">three</button>
+    <div class="dom_parent">
+        <div class="dom_child">child1</div>
+        <div class="dom_child">child2</div>
+        <div class="dom_child">child3</div>
+    </div>
+    <div class="dom_class">open</div>
+    <!-- イベント処理 -->
+    
+</body>
+<script src="./dom.js"></script>
+</html>
